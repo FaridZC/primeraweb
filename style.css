@@ -1,0 +1,114 @@
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(86, 86, 86);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header nav ul li a i {
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.2em;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+.seccion-1 {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.seccion-2 img {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+#footer {
+    padding: 1em;
+}
+
+header a i.fas.fa-heart {
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+}
+
+section.seccion-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    padding: 1%;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    div.acerca-de {
+        background-color: rgb(246, 206, 154);
+        font-size: 0.9em;
+    }
+
+    a {
+        display: none;
+    }
+
+    header {
+        background-color: rgb(214, 151, 5);
+        font-size: 0.8em;
+    }
+
+    .checkbtn {
+        display: block;
+        
+    }
+  }
